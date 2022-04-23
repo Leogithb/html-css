@@ -1,0 +1,16 @@
+@charset "UTF-8"
+
+body {
+    background-color: rgb(16, 185, 16); 
+}
+
+.tituloprimario {
+    text-align: center;
+}
+
+.titulocomfundo {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+
+}

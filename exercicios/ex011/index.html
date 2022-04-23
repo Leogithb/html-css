@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Responsivas</title>
+</head>
+<body>
+    <h1>Imagens Responsivas</h1>
+    <p>Voce esta vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiencia</p>
+    <picture>
+        <source media="(max-width:440px)" srcset="imagens/foto388.jpg" type="image/jpg">
+        <source media="(max-width:750px)" srcset="imagens/fotopequena.jpeg" type="image/jpeg">
+        <source media="(max-width:1000px )" srcset="imagens/fotomedia.jpeg" type="image/jpeg">
+        <img src="imagens/fotogrande.jpeg" alt="fotogrande">
+    </picture>
+    <H1>Reproduzindo audio</H1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio src="midia/TETO - Mustang Preto.mp4" controls></audio>
+</body>
+</html>
