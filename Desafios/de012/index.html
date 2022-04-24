@@ -52,8 +52,8 @@
             padding-top: 10vh;
             padding-left: 30px;
             padding-bottom: 10vh;
-            border-style: outset;
-            border-color: rgba(0, 0, 0, 0.082);
+            box-shadow: 2px 2px 2px 1px inset;
+            border-color: rgba(0, 0, 0, 0.021);
         }
         .paragrafoamais {
             background-color: #000f00a4;
@@ -63,6 +63,10 @@
         }
         .carta {
             background-image: url(imagens/background002.jpg);
+            box-shadow: 2px 2px 2px 1px inset rgba(0, 0, 0, 0.11);
+            background-size: cover;
+            background-attachment:fixed;
+            background-position:center center;
             padding-top: 10vh;
             padding-left: 30px;
             padding-bottom: 10vh;
@@ -98,12 +102,20 @@
             padding-left: 30px;
         }
 
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
     <header>
         <h1>Cordel Moderno</h1>
-        <p class="paragrafoprimeiro">Por <strong>Milton Duarte</strong></p>
+        <p class="paragrafoprimeiro">Por <strong><a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank" rel="external">Milton Duarte</a></strong></p>
     </header>
     <br>
     <Main>
